@@ -64,9 +64,9 @@ function get_file_extension($file_name) {
 
 /** settings **/
 $images_dir = 'images/';
-$thumbs_dir = 'thumbs/';
+$thumbs_dir = 'images/thumbs/';
 $thumbs_width = 200;
-$images_per_row = 4;
+$images_per_row = 2;
 
 /** generate photo gallery **/
 $image_files = get_files($images_dir);
